@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Bhiresh</h1>
+        <p>"Aspiring Web Developer | Passionate about Creating User-Centric Digital Experiences"</p>
+        <div class="navbar-nav">
+            <a class="nav-link-active" href="#about">| About Me |</a>
+            <a class="nav-link" href="#skills">| Skills |</a>
+            <a class="nav-link" href="#projects">| Projects |</a>
+            <a class="nav-link" href="#contact">| Contact |</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="myphoto.jpg" alt="Bhiresh">
+        <p id="aboutme">Hello, my name is Bhiresh, and I am currently pursuing a degree in Computer Science and Engineering at REVA University. I have a strong passion for technology, with a particular interest in web development. My academic journey has provided me with a solid foundation in computer science principles, and I am eager to apply my skills to create engaging and innovative web applications. I am excited to continue learning and growing in this dynamic field.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML & CSS</h3>
+                <p>Proficient in creating well-structured and styled web pages using HTML and CSS.</p>
+            </div>
+            <div class="skill-card">
+                <h3>C Programming</h3>
+                <p>Experienced in C programming for algorithm design and system-level programming.</p>
+            </div>
+            <div class="skill-card">
+                <h3>SQL</h3>
+                <p>Skilled in writing and optimizing SQL queries for data manipulation and retrieval.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Amazon Clone</h3>
+        <p>I developed an Amazon clone using HTML and CSS, focusing on replicating the visual design and layout of the Amazon e-commerce platform. The project involved creating a responsive navigation bar, product listing grid, and a footer with essential links, all designed to closely resemble the original site. Through this project, I honed my skills in front-end web development, ensuring cross-browser compatibility and responsive design for different screen sizes, ultimately achieving a clean and user-friendly interface.</p>
+        <a href="https://github.com/BhireshTech/amazonclone.git" target="_blank">View Project</a>
+        <img src="amazon_logo.jpeg" alt="Amazon Clone">
+    </div>
+
+</section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="resume.docx" download>Download My Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you would like to get in touch, please fill out the form below or reach out via email or phone.</p>
+        
+        <!-- Contact Form -->
+        <form action="mailto:bhireshkannur@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        
+        <div class="contact-info">
+            <p>Email: <a href="mailto:bhireshkannur@gmail.com">bhireshkannur@gmail.com</a></p>
+            <p>Phone: <a href="tel:+917619261738">+91 7619261738</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Bhiresh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
